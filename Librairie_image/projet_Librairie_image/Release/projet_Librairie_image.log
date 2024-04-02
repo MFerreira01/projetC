@@ -1,0 +1,47 @@
+﻿  libCIPSI1.c
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(45,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(438,9): warning C4101: 'j' : variable locale non référencée
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(460,26): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(790,26): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1104,27): warning C4047: '=' : les niveaux d'indirection de 'unsigned char' et de 'unsigned char *' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1105,27): warning C4047: '=' : les niveaux d'indirection de 'unsigned char' et de 'unsigned char *' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1106,27): warning C4047: '=' : les niveaux d'indirection de 'unsigned char' et de 'unsigned char *' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1113,20): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char *[256]' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1113,15): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1115,15): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *const ' et de 'char *[256]' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1115,10): warning C4024: 'sscanf' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1164,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1165,42): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1166,84): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1597,8): warning C4101: 'imgDilate' : variable locale non référencée
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1606,8): warning C4101: 'imgDilate' : variable locale non référencée
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1849,16): warning C4090: '=' : qualificateurs 'const' différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(1857,23): warning C4047: '==' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2434,32): warning C4047: 'fonction' : les niveaux d'indirection de 'char' et de 'char [20]' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2434,29): warning C4024: 'GetNomImage' : types différents pour le paramètre formel et réel 3
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2448,54): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2448,51): warning C4024: 'strlen' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2450,20): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2450,17): warning C4024: 'strcat' : types différents pour le paramètre formel et réel 2
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2554,48): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2554,42): warning C4024: 'allocation_SE' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2559,28): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2559,22): warning C4024: 'allocation_SE' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2561,28): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2561,22): warning C4024: 'allocation_SE' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2567,48): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2567,42): warning C4024: 'allocation_SE' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2572,28): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2572,22): warning C4024: 'allocation_SE' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2574,28): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'int' sont différents
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2574,22): warning C4024: 'allocation_SE' : types différents pour le paramètre formel et réel 1
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2809,17): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2811,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2852,17): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2854,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  Génération de code en cours
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\src\libCIPSI1.c(2444): warning C4715: 'LancementProcess' : les chemins de contrôle ne retournent pas tous une valeur
+  All 38 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  projet_Librairie_image.vcxproj -> C:\Users\flyin\OneDrive\Bureau\IPSI\IPSI 1\Développement pour l_image en C\Librairie image\Léo\Librairie_image\Release\projet_Librairie_image.exe

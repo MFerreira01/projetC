@@ -1,0 +1,2609 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 17,
+                  "endLine": 248,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OTSU_opti",
+                  "decoratedName": "OTSU_opti",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 26,
+                  "endLine": 276,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distanceEuclidienne",
+                  "decoratedName": "distanceEuclidienne",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 50,
+                  "endLine": 276,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distanceEuclidienne",
+                  "decoratedName": "distanceEuclidienne",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 279,
+                  "startColumn": 19,
+                  "endLine": 279,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distanceEuclidienne",
+                  "decoratedName": "distanceEuclidienne",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 279,
+                  "startColumn": 43,
+                  "endLine": 279,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distanceEuclidienne",
+                  "decoratedName": "distanceEuclidienne",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 19,
+                  "endLine": 282,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distanceEuclidienne",
+                  "decoratedName": "distanceEuclidienne",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 43,
+                  "endLine": 282,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distanceEuclidienne",
+                  "decoratedName": "distanceEuclidienne",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Valeur de retour ignorée : 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 301,
+                  "startColumn": 2,
+                  "endLine": 301,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lecturePoint",
+                  "decoratedName": "lecturePoint",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Valeur de retour ignorée : 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 303,
+                  "startColumn": 2,
+                  "endLine": 303,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lecturePoint",
+                  "decoratedName": "lecturePoint",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 18,
+                  "endLine": 316,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distancePoints",
+                  "decoratedName": "distancePoints",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '-' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '-' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 62,
+                  "endLine": 316,
+                  "endColumn": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "distancePoints",
+                  "decoratedName": "distancePoints",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Valeur de retour ignorée : 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 425,
+                  "startColumn": 2,
+                  "endLine": 425,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lectureComplexe",
+                  "decoratedName": "lectureComplexe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Valeur de retour ignorée : 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 427,
+                  "startColumn": 2,
+                  "endLine": 427,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lectureComplexe",
+                  "decoratedName": "lectureComplexe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Valeur de retour ignorée : 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 501,
+                  "startColumn": 2,
+                  "endLine": 501,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lectureTemps",
+                  "decoratedName": "lectureTemps",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Déréférencement du pointeur NULL 'mot'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 531,
+                  "startColumn": 3,
+                  "endLine": 531,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tirageMot",
+                  "decoratedName": "tirageMot",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 526,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 527,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'mot' peut avoir la valeur NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 529,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 529,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<taille')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 531,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'mot' est déréférencé, mais peut encore avoir la valeur NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Déréférencement du pointeur NULL 'Motcopie'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 544,
+                  "startColumn": 3,
+                  "endLine": 544,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "copieMot",
+                  "decoratedName": "copieMot",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 539,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 540,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'Motcopie' peut avoir la valeur NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 542,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 542,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<taille')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'Motcopie' est déréférencé, mais peut encore avoir la valeur NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Dépassement de la mémoire tampon lors de l'écriture sur 'matrice.valeurs'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 649,
+                  "startColumn": 4,
+                  "endLine": 649,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "initialisationMatrice",
+                  "decoratedName": "initialisationMatrice",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 636,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 637,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 638,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 639,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 641,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 643,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que 'matrice.valeurs==(((void *)0))' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 647,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 649,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' peut être égal à 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Continuer cette boucle, (supposer 'i<hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 649,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Écriture incorrecte sur 'matrice.valeurs', (en dehors de la plage d'écriture)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Lecture de données non valides à partir de 'matrice.valeurs'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 650,
+                  "startColumn": 7,
+                  "endLine": 650,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "initialisationMatrice",
+                  "decoratedName": "initialisationMatrice",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 636,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 637,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 638,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 639,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 641,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 643,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que 'matrice.valeurs==(((void *)0))' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 647,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 649,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' peut être égal à 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Quitter cette boucle, ('i<hauteur' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 650,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que '<condition de branche>' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 650,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Lecture incorrecte depuis 'matrice.valeurs', (en dehors de sa plage de lecture)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Dépassement de la mémoire tampon lors de l'écriture sur 'matrice.valeurs[i]'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 658,
+                  "startColumn": 4,
+                  "endLine": 658,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "initialisationMatrice",
+                  "decoratedName": "initialisationMatrice",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 636,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 637,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 638,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 639,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 641,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 643,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 647,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 649,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 648,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 650,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 654,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'i' a la valeur NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 654,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 656,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 656,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'j<largeur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 658,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 656,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "'j' peut être égal à 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 656,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Continuer cette boucle, (supposer 'j<largeur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 658,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Écriture incorrecte sur 'matrice.valeurs[i]', (en dehors de la plage d'écriture)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Dépassement de la mémoire tampon lors de l'écriture sur 'matrice.valeurs'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 734,
+                  "startColumn": 4,
+                  "endLine": 734,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "allocationMatrice",
+                  "decoratedName": "allocationMatrice",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 724,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 726,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 728,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que 'matrice.valeurs==(((void *)0))' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 732,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 734,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' peut être égal à 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Continuer cette boucle, (supposer 'i<hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 734,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Écriture incorrecte sur 'matrice.valeurs', (en dehors de la plage d'écriture)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Lecture de données non valides à partir de 'matrice.valeurs'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 735,
+                  "startColumn": 7,
+                  "endLine": 735,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "allocationMatrice",
+                  "decoratedName": "allocationMatrice",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 724,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 726,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 728,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que 'matrice.valeurs==(((void *)0))' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 732,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 734,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' peut être égal à 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Quitter cette boucle, ('i<hauteur' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 735,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que '<condition de branche>' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 735,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Lecture incorrecte depuis 'matrice.valeurs', (en dehors de sa plage de lecture)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Dépassement de la mémoire tampon lors de l'écriture sur 'matrice.ptLignes'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 791,
+                  "startColumn": 4,
+                  "endLine": 791,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "allocation_iMatrice",
+                  "decoratedName": "allocation_iMatrice",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 774,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 775,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 776,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 778,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que 'matrice.valeurs==(((void *)0))' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 782,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que '<condition de branche>' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 788,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 789,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 789,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<matrice.hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 791,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 792,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 789,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'i' peut être égal à 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 789,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Continuer cette boucle, (supposer 'i<matrice.hauteur')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 791,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Écriture incorrecte sur 'matrice.ptLignes', (en dehors de la plage d'écriture)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Valeur de retour ignorée : 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 979,
+                  "startColumn": 2,
+                  "endLine": 979,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lectureData",
+                  "decoratedName": "lectureData",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Valeur de retour ignorée : 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 983,
+                  "startColumn": 3,
+                  "endLine": 983,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lectureData",
+                  "decoratedName": "lectureData",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '+' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '+' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 1039,
+                  "startColumn": 68,
+                  "endLine": 1039,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortieRegression",
+                  "decoratedName": "sortieRegression",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Dépassement arithmétique : utilisation de l'opérateur '*' sur une valeur de 4 octets, puis cast du résultat vers une valeur de 8 octets. Castez la valeur vers le type plus large avant d'appeler l'opérateur '*' pour évider un dépassement (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 1039,
+                  "startColumn": 68,
+                  "endLine": 1039,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortieRegression",
+                  "decoratedName": "sortieRegression",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Déréférencement du pointeur NULL 'pts'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                },
+                "region": {
+                  "startLine": 1077,
+                  "startColumn": 6,
+                  "endLine": 1077,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImageVersPoints",
+                  "decoratedName": "ImageVersPoints",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1047,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'pts' peut avoir la valeur NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1048,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1050,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorer cette branche, (supposer que 'axe==105' a la valeur false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1069,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette branche, (supposer 'axe==106')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1071,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1071,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'i<img.Nblig')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1073,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1073,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette boucle, (supposer 'j<img.Nbcol')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1075,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Entrer dans cette branche, (supposer 'img.pixel[i][j]==1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+                          },
+                          "region": {
+                            "startLine": 1077,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'pts' est déréférencé, mais peut encore avoir la valeur NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/flyin/OneDrive/Bureau/IPSI/IPSI 1/Développement pour l_image en C/Librairie image/Léo/src/libOutils.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8434ac439b338793a80f26eb99b9f70d59f1d3b08f37ce6c98403865282dae83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flyin/onedrive/bureau/ipsi/ipsi 1/développement pour l_image en c/librairie image/léo/include/liboutils.h"
+          },
+          "hashes": {
+            "sha-256": "f490625433e0b1ee460084e88dc728535831ff021dd3aaebcad17ea386697fc0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/flyin/onedrive/bureau/ipsi/ipsi 1/développement pour l_image en c/librairie image/léo/include/libcipsi1.h"
+          },
+          "hashes": {
+            "sha-256": "74bd2fd7b742ea781cab4ddc64ecc8f824b9c1413b50c0c4909b0a42ad21126d"
+          }
+        }
+      ]
+    }
+  ]
+}
