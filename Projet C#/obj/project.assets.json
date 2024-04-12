@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Perso\\TELECOM\\Projet IPSI\\Projet Cpp\\Projet Cpp.csproj",
+      "projectUniqueName": "D:\\Perso\\TELECOM\\GIT\\projetC\\Projet C#\\Projet Cpp.csproj",
       "projectName": "Projet Cpp",
-      "projectPath": "D:\\Perso\\TELECOM\\Projet IPSI\\Projet Cpp\\Projet Cpp.csproj",
+      "projectPath": "D:\\Perso\\TELECOM\\GIT\\projetC\\Projet C#\\Projet Cpp.csproj",
       "packagesPath": "C:\\Users\\vince\\.nuget\\packages\\",
-      "outputPath": "D:\\Perso\\TELECOM\\Projet IPSI\\Projet Cpp\\obj\\",
+      "outputPath": "D:\\Perso\\TELECOM\\GIT\\projetC\\Projet C#\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

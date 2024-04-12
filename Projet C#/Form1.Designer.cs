@@ -54,8 +54,6 @@
             checkBox1 = new CheckBox();
             bt_m90 = new Button();
             bt_p90 = new Button();
-            bt_zplus = new Button();
-            bt_zmoins = new Button();
             ((System.ComponentModel.ISupportInitialize)pb_init).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_GT).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_result).BeginInit();
@@ -83,7 +81,7 @@
             // 
             cb_treatment.DropDownStyle = ComboBoxStyle.DropDownList;
             cb_treatment.FormattingEnabled = true;
-            cb_treatment.Items.AddRange(new object[] { "Initale", "Rotation", "Zoom" });
+            cb_treatment.Items.AddRange(new object[] { "Initale", "Rotation" });
             cb_treatment.Location = new Point(212, 30);
             cb_treatment.Name = "cb_treatment";
             cb_treatment.Size = new Size(134, 33);
@@ -96,7 +94,8 @@
             pb_init.BorderStyle = BorderStyle.FixedSingle;
             pb_init.Location = new Point(40, 245);
             pb_init.Name = "pb_init";
-            pb_init.Size = new Size(456, 398);
+            pb_init.Size = new Size(460, 460);
+            pb_init.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_init.TabIndex = 3;
             pb_init.TabStop = false;
             // 
@@ -104,9 +103,9 @@
             // 
             pb_GT.BackColor = SystemColors.ControlLightLight;
             pb_GT.BorderStyle = BorderStyle.FixedSingle;
-            pb_GT.Location = new Point(572, 245);
+            pb_GT.Location = new Point(575, 248);
             pb_GT.Name = "pb_GT";
-            pb_GT.Size = new Size(209, 158);
+            pb_GT.Size = new Size(200, 200);
             pb_GT.TabIndex = 4;
             pb_GT.TabStop = false;
             // 
@@ -114,16 +113,17 @@
             // 
             pb_result.BackColor = SystemColors.ControlLightLight;
             pb_result.BorderStyle = BorderStyle.FixedSingle;
-            pb_result.Location = new Point(572, 460);
+            pb_result.Location = new Point(575, 484);
             pb_result.Name = "pb_result";
-            pb_result.Size = new Size(209, 158);
+            pb_result.Size = new Size(200, 200);
             pb_result.TabIndex = 5;
             pb_result.TabStop = false;
+            pb_result.Click += pb_result_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(619, 404);
+            label1.Location = new Point(618, 448);
             label1.Name = "label1";
             label1.Size = new Size(115, 25);
             label1.TabIndex = 6;
@@ -132,7 +132,8 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(634, 618);
+            label2.BackColor = Color.Transparent;
+            label2.Location = new Point(638, 684);
             label2.Name = "label2";
             label2.Size = new Size(74, 25);
             label2.TabIndex = 7;
@@ -141,7 +142,7 @@
             // 
             // bt_treatment
             // 
-            bt_treatment.Location = new Point(104, 665);
+            bt_treatment.Location = new Point(104, 761);
             bt_treatment.Name = "bt_treatment";
             bt_treatment.Size = new Size(134, 56);
             bt_treatment.TabIndex = 8;
@@ -150,35 +151,37 @@
             // 
             // bt_save_image
             // 
-            bt_save_image.Location = new Point(572, 665);
+            bt_save_image.Location = new Point(572, 761);
             bt_save_image.Name = "bt_save_image";
             bt_save_image.Size = new Size(196, 56);
             bt_save_image.TabIndex = 11;
             bt_save_image.Text = "Enregistrer Résultat";
             bt_save_image.UseVisualStyleBackColor = true;
+            bt_save_image.Click += bt_save_image_Click;
             // 
             // bt_saveIOU
             // 
-            bt_saveIOU.Location = new Point(572, 763);
+            bt_saveIOU.Location = new Point(572, 859);
             bt_saveIOU.Name = "bt_saveIOU";
             bt_saveIOU.Size = new Size(196, 56);
             bt_saveIOU.TabIndex = 12;
             bt_saveIOU.Text = "Exporter résultat IOU";
             bt_saveIOU.UseVisualStyleBackColor = true;
+            bt_saveIOU.Click += bt_saveIOU_Click;
             // 
             // bt_calculate_IOU
             // 
-            bt_calculate_IOU.Location = new Point(334, 665);
+            bt_calculate_IOU.Location = new Point(334, 761);
             bt_calculate_IOU.Name = "bt_calculate_IOU";
             bt_calculate_IOU.Size = new Size(129, 56);
             bt_calculate_IOU.TabIndex = 14;
             bt_calculate_IOU.Text = "Calculer IOU";
-            bt_calculate_IOU.Click += button6_Click;
+            bt_calculate_IOU.Click += bt_calculate_IOU_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(62, 779);
+            label3.Location = new Point(62, 875);
             label3.Name = "label3";
             label3.Size = new Size(201, 25);
             label3.TabIndex = 15;
@@ -186,7 +189,8 @@
             // 
             // txtBox_IOU
             // 
-            txtBox_IOU.Location = new Point(159, 776);
+            txtBox_IOU.Enabled = false;
+            txtBox_IOU.Location = new Point(159, 872);
             txtBox_IOU.Name = "txtBox_IOU";
             txtBox_IOU.Size = new Size(79, 31);
             txtBox_IOU.TabIndex = 16;
@@ -202,8 +206,10 @@
             pb1.Location = new Point(12, 93);
             pb1.Name = "pb1";
             pb1.Size = new Size(100, 100);
+            pb1.SizeMode = PictureBoxSizeMode.StretchImage;
             pb1.TabIndex = 17;
             pb1.TabStop = false;
+            pb1.Click += pb1_Click;
             // 
             // pb2
             // 
@@ -211,8 +217,10 @@
             pb2.Location = new Point(112, 93);
             pb2.Name = "pb2";
             pb2.Size = new Size(100, 100);
+            pb2.SizeMode = PictureBoxSizeMode.StretchImage;
             pb2.TabIndex = 18;
             pb2.TabStop = false;
+            pb2.Click += pb2_Click;
             // 
             // pb3
             // 
@@ -220,8 +228,10 @@
             pb3.Location = new Point(212, 93);
             pb3.Name = "pb3";
             pb3.Size = new Size(100, 100);
+            pb3.SizeMode = PictureBoxSizeMode.StretchImage;
             pb3.TabIndex = 19;
             pb3.TabStop = false;
+            pb3.Click += pb3_Click;
             // 
             // pb4
             // 
@@ -229,8 +239,10 @@
             pb4.Location = new Point(312, 93);
             pb4.Name = "pb4";
             pb4.Size = new Size(100, 100);
+            pb4.SizeMode = PictureBoxSizeMode.StretchImage;
             pb4.TabIndex = 20;
             pb4.TabStop = false;
+            pb4.Click += pb4_Click;
             // 
             // pb5
             // 
@@ -238,8 +250,10 @@
             pb5.Location = new Point(412, 93);
             pb5.Name = "pb5";
             pb5.Size = new Size(100, 100);
+            pb5.SizeMode = PictureBoxSizeMode.StretchImage;
             pb5.TabIndex = 21;
             pb5.TabStop = false;
+            pb5.Click += pb5_Click;
             // 
             // pb6
             // 
@@ -247,8 +261,10 @@
             pb6.Location = new Point(512, 93);
             pb6.Name = "pb6";
             pb6.Size = new Size(100, 100);
+            pb6.SizeMode = PictureBoxSizeMode.StretchImage;
             pb6.TabIndex = 22;
             pb6.TabStop = false;
+            pb6.Click += pb6_Click;
             // 
             // pb7
             // 
@@ -256,8 +272,10 @@
             pb7.Location = new Point(612, 93);
             pb7.Name = "pb7";
             pb7.Size = new Size(100, 100);
+            pb7.SizeMode = PictureBoxSizeMode.StretchImage;
             pb7.TabIndex = 23;
             pb7.TabStop = false;
+            pb7.Click += pb7_Click;
             // 
             // pb8
             // 
@@ -265,8 +283,10 @@
             pb8.Location = new Point(712, 93);
             pb8.Name = "pb8";
             pb8.Size = new Size(100, 100);
+            pb8.SizeMode = PictureBoxSizeMode.StretchImage;
             pb8.TabIndex = 24;
             pb8.TabStop = false;
+            pb8.Click += pb8_Click;
             // 
             // ScrollBar1
             // 
@@ -307,33 +327,11 @@
             bt_p90.UseVisualStyleBackColor = true;
             bt_p90.Click += bt_p90_Click;
             // 
-            // bt_zplus
-            // 
-            bt_zplus.Location = new Point(439, 30);
-            bt_zplus.Name = "bt_zplus";
-            bt_zplus.Size = new Size(61, 33);
-            bt_zplus.TabIndex = 31;
-            bt_zplus.Text = "+";
-            bt_zplus.UseVisualStyleBackColor = true;
-            bt_zplus.Click += bt_zplus_Click;
-            // 
-            // bt_zmoins
-            // 
-            bt_zmoins.Location = new Point(372, 30);
-            bt_zmoins.Name = "bt_zmoins";
-            bt_zmoins.Size = new Size(61, 33);
-            bt_zmoins.TabIndex = 30;
-            bt_zmoins.Text = "-";
-            bt_zmoins.UseVisualStyleBackColor = true;
-            bt_zmoins.Click += bt_zmoins_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(823, 939);
-            Controls.Add(bt_zplus);
-            Controls.Add(bt_zmoins);
             Controls.Add(bt_p90);
             Controls.Add(bt_m90);
             Controls.Add(checkBox1);
@@ -405,7 +403,5 @@
         private CheckBox checkBox1;
         private Button bt_m90;
         private Button bt_p90;
-        private Button bt_zplus;
-        private Button bt_zmoins;
     }
 }

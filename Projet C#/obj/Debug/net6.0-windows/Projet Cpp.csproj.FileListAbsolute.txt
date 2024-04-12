@@ -15,3 +15,20 @@ D:\Perso\TELECOM\Projet IPSI\Projet Cpp\obj\Debug\net6.0-windows\Projet Cpp.pdb
 D:\Perso\TELECOM\Projet IPSI\Projet Cpp\obj\Debug\net6.0-windows\Projet Cpp.genruntimeconfig.cache
 D:\Perso\TELECOM\Projet IPSI\Projet Cpp\obj\Debug\net6.0-windows\ref\Projet Cpp.dll
 D:\Perso\TELECOM\Projet IPSI\Projet Cpp\obj\Debug\net6.0-windows\Projet_Cpp.Properties.Resources.resources
+D:\Perso\TELECOM\GIT\projetC\Projet C#\bin\Debug\net6.0-windows\Projet Cpp.exe
+D:\Perso\TELECOM\GIT\projetC\Projet C#\bin\Debug\net6.0-windows\Projet Cpp.deps.json
+D:\Perso\TELECOM\GIT\projetC\Projet C#\bin\Debug\net6.0-windows\Projet Cpp.runtimeconfig.json
+D:\Perso\TELECOM\GIT\projetC\Projet C#\bin\Debug\net6.0-windows\Projet Cpp.dll
+D:\Perso\TELECOM\GIT\projetC\Projet C#\bin\Debug\net6.0-windows\Projet Cpp.pdb
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet_Cpp.Form1.resources
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet_Cpp.Properties.Resources.resources
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.csproj.GenerateResource.cache
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.AssemblyInfoInputs.cache
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.AssemblyInfo.cs
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.csproj.CoreCompileInputs.cache
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.dll
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\refint\Projet Cpp.dll
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.pdb
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\Projet Cpp.genruntimeconfig.cache
+D:\Perso\TELECOM\GIT\projetC\Projet C#\obj\Debug\net6.0-windows\ref\Projet Cpp.dll
