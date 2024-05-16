@@ -19,11 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\elementStructurant.h" />
     <ClInclude Include="..\..\include\libCIPSI1.h" />
     <ClInclude Include="..\..\include\libOutils.h" />
+    <ClInclude Include="libCIPSI.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\libCIPSI1.c" />
+    <ClCompile Include="..\..\src\elementStructurant.cpp" />
+    <ClCompile Include="..\..\src\libCIPSI1.cpp" />
     <ClCompile Include="..\..\src\libOutils.c" />
     <ClCompile Include="..\..\src\MainProjetC.c" />
   </ItemGroup>

@@ -190,7 +190,7 @@ MOT* tiragePhrase(int nbMots);
 
 #pragma region MATRICE
 
-MATRICE initialisationMatrice(hauteur, largeur, valeur_Min, valeur_Max);
+//MATRICE initialisationMatrice(hauteur, largeur, valeur_Min, valeur_Max);
 void liberationMatrice(MATRICE *matrice);
 void affichageMatrice(MATRICE matrice);
 int traceMatrice(MATRICE matrice);

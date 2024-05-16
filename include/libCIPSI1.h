@@ -325,13 +325,6 @@ IMAGE erosionImage(IMAGE img, int voisinage);
 /// <param name="img"></param>
 /// <param name="SE">Notre structure element</param>
 /// <returns></returns>
-IMAGE erosionImageSE(IMAGE img, ELEMENT_STRUCTURANT SE);
-/// <summary>
-/// Fait une dilatation
-/// </summary>
-/// <param name="img"></param>
-/// <param name="voisinage -> 4 pour V4 -> 8 pour V8"></param>
-/// <returns>img dilaté</returns>
 IMAGE dilatationImage(IMAGE img, int voisinage);
 /// <summary>
 /// Fait une dilatation avec un element structurant
@@ -339,13 +332,6 @@ IMAGE dilatationImage(IMAGE img, int voisinage);
 /// <param name="img"></param>
 /// <param name="SE">Notre element structurant</param>
 /// <returns></returns>
-IMAGE dilatationImageSE(IMAGE img, ELEMENT_STRUCTURANT SE);
-/// <summary>
-/// Fait une Ouverture
-/// </summary>
-/// <param name="img"></param>
-/// <param name="voisinage -> 4 pour V4 -> 8 pour V8"></param>
-/// <returns>img ouverte</returns>
 IMAGE ouvertureImage(IMAGE img, int voisinage);
 /// <summary>
 /// Fait une Ouverture avec notre element structurant
@@ -353,13 +339,6 @@ IMAGE ouvertureImage(IMAGE img, int voisinage);
 /// <param name="img"></param>
 /// <param name="SE">notre element structurant</param>
 /// <returns></returns>
-IMAGE ouvertureImageSE(IMAGE img, ELEMENT_STRUCTURANT SE);
-/// <summary>
-/// Fait une Fermeture
-/// </summary>
-/// <param name="img"></param>
-/// <param name="voisinage -> 4 pour V4 -> 8 pour V8"></param>
-/// <returns>img fermé</returns>
 IMAGE fermetureImage(IMAGE img, int voisinage);
 /// <summary>
 ///  Fait une Fermeture avec notre element structurant
@@ -367,13 +346,6 @@ IMAGE fermetureImage(IMAGE img, int voisinage);
 /// <param name="img"></param>
 /// <param name="SE">notre element structurant</param>
 /// <returns></returns>
-IMAGE fermetureImageSE(IMAGE img, ELEMENT_STRUCTURANT SE);
-/// <summary>
-///Fait le contour des composantes
-/// </summary>
-/// <param name="img"></param>
-/// <param name="voisinage -> 4 pour V4 -> 8 pour V8"></param>
-/// <returns>img des contours</returns>
 IMAGE contourImage(IMAGE img, int voisinage);
 /// <summary>
 /// white tophat (supprime le fond)
@@ -388,13 +360,6 @@ IMAGE whiteTopHat(IMAGE img, int voisinage, int n_iteration);
 /// <param name="img"></param>
 /// <param name="SE">notre element structurant</param>
 /// <returns></returns>
-IMAGE whiteTopHatSE(IMAGE img, ELEMENT_STRUCTURANT SE);
-/// <summary>
-/// black tophat
-/// </summary>
-/// <param name="img">Image</param>
-/// <param name="voisinage">voisinage -> 4 pour V4 -> 8 pour V8</param>
-/// <returns>image blacktophat</returns>
 IMAGE blackTopHat(IMAGE img, int voisinage, int n_iteration);
 /// <summary>
 /// black tophat avec notre element structurant
@@ -402,13 +367,6 @@ IMAGE blackTopHat(IMAGE img, int voisinage, int n_iteration);
 /// <param name="img"></param>
 /// <param name="SE">notre element structurant</param>
 /// <returns></returns>
-IMAGE blackTopHatSE(IMAGE img, ELEMENT_STRUCTURANT SE);
-/// <summary>
-/// Soustrait 2 images
-/// </summary>
-/// <param name="img1">L'image 1</param>
-/// <param name="img2">L'image 2</param>
-/// <returns>L'image soustrait</returns>
 IMAGE SoustractionImage(IMAGE img1, IMAGE img2);
 
 /// <summary>
@@ -426,16 +384,6 @@ int st(IMAGE img1, IMAGE img2);
 /// <param name="img2"></param>
 /// <returns>le nombre de pixel dans l'union</returns>
 int UnionImage(IMAGE img1, IMAGE img2);
-#pragma endregion
-
-#pragma region ELEMENT STRUCTURANT
-/// <summary>
-/// Crée un SE
-/// </summary>
-/// <param name="type">Type de SE 'disk'</param>
-/// <param name="rayon">rayon pour le SE</param>
-/// <returns>Le SE</returns>
-ELEMENT_STRUCTURANT allocation_SE(const char* type, int rayon);
 #pragma endregion
 
 #pragma region PROJET
