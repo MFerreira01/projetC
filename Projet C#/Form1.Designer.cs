@@ -54,6 +54,7 @@
             checkBox1 = new CheckBox();
             bt_m90 = new Button();
             bt_p90 = new Button();
+            trackBar_time = new TrackBar();
             ((System.ComponentModel.ISupportInitialize)pb_init).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_GT).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_result).BeginInit();
@@ -65,6 +66,7 @@
             ((System.ComponentModel.ISupportInitialize)pb6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar_time).BeginInit();
             SuspendLayout();
             // 
             // bt_select
@@ -327,11 +329,20 @@
             bt_p90.UseVisualStyleBackColor = true;
             bt_p90.Click += bt_p90_Click;
             // 
+            // trackBar_time
+            // 
+            trackBar_time.Location = new Point(334, 846);
+            trackBar_time.Name = "trackBar_time";
+            trackBar_time.Size = new Size(129, 69);
+            trackBar_time.TabIndex = 30;
+            trackBar_time.Scroll += trackBar1_Scroll;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(823, 939);
+            Controls.Add(trackBar_time);
             Controls.Add(bt_p90);
             Controls.Add(bt_m90);
             Controls.Add(checkBox1);
@@ -371,6 +382,7 @@
             ((System.ComponentModel.ISupportInitialize)pb6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pb7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pb8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar_time).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -403,5 +415,6 @@
         private CheckBox checkBox1;
         private Button bt_m90;
         private Button bt_p90;
+        private TrackBar trackBar_time;
     }
 }

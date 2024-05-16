@@ -34,6 +34,7 @@ namespace Projet_Cpp
             InitializeComponent();
             bt_m90.Visible = false;
             bt_p90.Visible = false;
+            trackBar_time.Visible = false;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -220,10 +221,15 @@ namespace Projet_Cpp
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            if (checkBox1.Checked)
+            {
+                trackBar_time.Visible = true;
+            }
             if (!checkBox1.Checked)
             {
-
+                trackBar_time.Visible = false;
             }
+
         }
 
         private void pb1_Click(object sender, EventArgs e)
@@ -339,6 +345,11 @@ namespace Projet_Cpp
 
                 nbImageSave += 1;
             }
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+
         }
     }
 }
