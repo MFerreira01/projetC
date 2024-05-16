@@ -22,6 +22,7 @@
     <ClInclude Include="..\..\include\elementStructurant.h" />
     <ClInclude Include="..\..\include\libCIPSI1.h" />
     <ClInclude Include="..\..\include\libOutils.h" />
+    <ClInclude Include="image.h" />
     <ClInclude Include="libCIPSI.h" />
   </ItemGroup>
   <ItemGroup>
@@ -29,6 +30,7 @@
     <ClCompile Include="..\..\src\libCIPSI1.cpp" />
     <ClCompile Include="..\..\src\libOutils.c" />
     <ClCompile Include="..\..\src\MainProjetC.c" />
+    <ClCompile Include="image.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D972066E-1CD4-4E02-9C8B-61734FB73357}</ProjectGuid>

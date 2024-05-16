@@ -49,18 +49,6 @@ typedef struct signature_composantes_connexes {
 	int suppr;
 } SIGNATURE_COMPOSANTE_CONNEXE;
 
-typedef struct element_structurant {
-	char* type;
-	int rayon;
-	int hauteur;
-	int largeur;
-	int centreX;
-	int centreY;
-	unsigned char* data;
-	unsigned char** pixel;
-} ELEMENT_STRUCTURANT;
-
-
 #pragma region POINT
 /// <summary>
 /// Demande a l'utilisateur les coordonnées d'un point
