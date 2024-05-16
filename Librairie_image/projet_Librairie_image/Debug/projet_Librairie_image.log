@@ -1,1 +1,152 @@
-﻿  projet_Librairie_image.vcxproj -> C:\Users\maria\Downloads\Projet C-20240402T070404Z-001\Projet C\Librairie_image\Debug\projet_Librairie_image.exe
+﻿  elementStructurant.cpp
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(26,15): error C3646: 'erosionImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(26,29): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(26,70): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(27,15): error C3646: 'dilatationImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(27,32): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(27,73): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(28,15): error C3646: 'ouvertureImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(28,31): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(28,72): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(29,15): error C3646: 'fermetureImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(29,31): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(29,72): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(30,15): error C3646: 'whiteTopHatSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(30,28): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(30,69): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(31,15): error C3646: 'blackTopHatSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(31,28): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(31,69): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\elementStructurant.cpp(19,12): error C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\maria\Documents\IPSI_2\Projet C\src\elementStructurant.cpp(87,27): error C2039: 'erosionImageSE' n'est pas membre de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(3,7): message : voir la déclaration de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\elementStructurant.cpp(135,27): error C2039: 'dilatationImageSE' n'est pas membre de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(3,7): message : voir la déclaration de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\elementStructurant.cpp(176,27): error C2039: 'ouvertureImageSE' n'est pas membre de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(3,7): message : voir la déclaration de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\elementStructurant.cpp(183,27): error C2039: 'fermetureImageSE' n'est pas membre de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(3,7): message : voir la déclaration de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\elementStructurant.cpp(190,27): error C2039: 'whiteTopHatSE' n'est pas membre de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(3,7): message : voir la déclaration de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\elementStructurant.cpp(220,27): error C2039: 'blackTopHatSE' n'est pas membre de 'ElementStructurant'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(3,7): message : voir la déclaration de 'ElementStructurant'
+  libCIPSI1.cpp
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(26,15): error C3646: 'erosionImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(26,29): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(26,70): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(27,15): error C3646: 'dilatationImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(27,32): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(27,73): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(28,15): error C3646: 'ouvertureImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(28,31): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(28,72): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(29,15): error C3646: 'fermetureImageSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(29,31): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(29,72): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(30,15): error C3646: 'whiteTopHatSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(30,28): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(30,69): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(31,15): error C3646: 'blackTopHatSE' : spécificateur de substitution inconnu
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(31,28): error C2059: erreur de syntaxe : '('
+C:\Users\maria\Documents\IPSI_2\Projet C\include\elementStructurant.h(31,69): error C2238: jetons inattendus avant ';'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(46,13): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(461,17): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(791,17): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1105,22): error C2440: '=' : impossible de convertir de 'unsigned char *' en 'unsigned char'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1105,22): message : Aucun contexte dans lequel cette conversion est possible
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1106,22): error C2440: '=' : impossible de convertir de 'unsigned char *' en 'unsigned char'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1106,22): message : Aucun contexte dans lequel cette conversion est possible
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1107,22): error C2440: '=' : impossible de convertir de 'unsigned char *' en 'unsigned char'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1107,22): message : Aucun contexte dans lequel cette conversion est possible
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1114,9): error C2664: 'char *fgets(char *,int,FILE *)' : impossible de convertir l'argument 1 de 'char *[256]' en 'char *'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1114,15): message : Les types pointés ne sont pas liés ; la conversion nécessite un reinterpret_cast, un cast de style C ou un cast de style fonction entre parenthèses.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(198,28): message : voir la déclaration de 'fgets'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1114,9): message : lors de la tentative de mise en correspondance de la liste des arguments '(char *[256], int, FILE *)'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1116,3): error C2664: 'int sscanf(const char *const ,const char *const ,...)' : impossible de convertir l'argument 1 de 'char *[256]' en 'const char *const '
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1116,10): message : Les types pointés ne sont pas liés ; la conversion nécessite un reinterpret_cast, un cast de style C ou un cast de style fonction entre parenthèses.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(2240,37): message : voir la déclaration de 'sscanf'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1116,3): message : lors de la tentative de mise en correspondance de la liste des arguments '(char *[256], const char [12], int *, int *, int *, int *)'
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1165,30): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1166,44): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1167,84): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1297,47): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1297,26): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1299,71): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1299,38): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1301,71): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1301,38): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1303,95): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1303,50): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1308,31): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1308,74): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1308,27): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1313,43): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1313,110): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1313,39): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1318,31): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1318,74): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1318,27): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1323,43): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1323,110): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1323,39): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1331,32): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1331,75): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1331,122): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1331,71): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1331,28): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1338,30): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1338,69): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1338,26): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1340,42): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1340,105): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1340,38): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1342,42): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1342,105): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1342,38): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1344,54): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1344,141): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1344,50): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1349,31): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1349,82): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1349,125): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1349,78): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1349,27): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1354,43): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1354,118): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1354,185): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1354,114): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1354,39): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1359,31): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1359,82): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1359,125): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1359,78): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1359,27): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1364,43): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1364,118): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1364,185): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1364,114): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1364,39): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,36): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,75): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,32): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,131): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,178): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,127): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,234): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,123): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1374,28): error C3861: 'min' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1389,48): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1389,27): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1391,72): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1391,39): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1393,72): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1393,39): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1395,96): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1395,51): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1400,32): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1400,75): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1400,28): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1405,44): error C3861: 'max' : identificateur introuvable
+C:\Users\maria\Documents\IPSI_2\Projet C\src\libCIPSI1.cpp(1405,108): fatal  error C1003: le nombre d'erreurs est supérieur à 100 ; arrêt de la compilation
+  image.cpp
+  Génération de code en cours...
